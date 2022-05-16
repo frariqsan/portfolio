@@ -12,20 +12,22 @@ html {
 body {
   min-height: 100%;
   background: #eee;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 400;
   color: #222;
   font-size: 14px;
   line-height: 26px;
   padding-bottom: 50px;
+  background-color: #e0c194;
+  background-image: url("https://www.transparenttextures.com/patterns/arches.png");
 }
 
 .container {
   max-width: 700px;
   background: #fff;
   margin: 0px auto 0px;
-  -webkit-box-shadow: 1px 1px 2px #DAD7D7;
-          box-shadow: 1px 1px 2px #DAD7D7;
+  -webkit-box-shadow: 1px 1px 2px #dad7d7;
+          box-shadow: 1px 1px 2px #dad7d7;
   border-radius: 3px;
   padding: 40px;
   margin-top: 50px;
@@ -87,7 +89,7 @@ body {
 
 .details .section__title {
   letter-spacing: 2px;
-  color: #54AFE4;
+  color: #54afe4;
   font-weight: bold;
   margin-bottom: 10px;
   text-transform: uppercase;
@@ -143,12 +145,12 @@ body {
   display: inline-block;
   width: 20px;
   height: 20px;
-  background: #C3DEF3;
+  background: #9aa09c;
   border-radius: 20px;
   margin-right: 3px;
 }
 
 .details .skills__item .right input:checked + label {
-  background: #79A9CE;
+  background: #34a853;
 }
 /*# sourceMappingURL=index.css.map */
